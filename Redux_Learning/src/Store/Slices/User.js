@@ -7,7 +7,9 @@ export const UserSlice = createSlice({
     },
     reducers : {
         Adduser : (state,actions) =>{
-            console.log(actions.payload);
+           
+            state.Users.push(actions.payload);
+           
         }
     }
 })

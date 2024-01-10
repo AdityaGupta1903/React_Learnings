@@ -7,7 +7,7 @@ export const ItemSlice = createSlice({
     },
     reducers : {
         AddItem : (state,actions) =>{
-            console.log(actions.payload);
+            console.log(actions);
         }
     }
 })
