@@ -1,8 +1,8 @@
 import { configureStore } from '@reduxjs/toolkit';
-import rootuser from './Root';
+import SlicesClubber from './SlicesClubber';
 
 const store = configureStore({
-  reducer: rootuser,
+  reducer: SlicesClubber,
 });
 
 export default store;
